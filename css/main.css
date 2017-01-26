@@ -143,15 +143,22 @@ label.light {
   color: #818e98;
 }
 
+#news_html,
+#news_css,
+#news_javascript,
+#html,
+#plain_text {
+  transition-property: box-shadow;
+  transition-duration: 2s;
+}
+
 #news_html:hover,
 #news_css:hover,
 #news_javascript:hover,
 #html:hover,
 #plain_text:hover {
-  position:relative;
-  transition-property: background-color, color;
-  transition-duration: 2s;
-  transition-timing-function:step-end;
+  position: relative;
+  transition-timing-function: ease-out;
   box-shadow: 3px 3px 3px 3px #993366;
 }
 
